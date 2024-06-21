@@ -1,0 +1,98 @@
+153줄 
+.footer_inner {padding:25px 0 0 298px;}
+.footer_inner {padding:25px 0 0 378px;}
+
+
+397줄
+.footer_inner{padding-left:229px;}
+.footer_inner{padding-left:289px;}
+
+155줄
+.f_menu li{position:relative;display:inline-block;padding:0 16px;line-height:22px;}
+.f_menu li{position:relative;display:inline-block;padding:0 10px;line-height:22px;}
+
+156줄
+.f_menu li:first-child{padding:0 17px 0 0;}
+.f_menu li:first-child{padding:0 11px 0 0;}
+
+
+174줄
+.f_logo{position:absolute;top:25px;left:89px;width:180px;}
+.f_logo{position:absolute;top:30px;left:90px;width:217px;}
+
+177줄
+.f_logo_app {display:inline-flex; position:absolute; top:80px; left:96px;}
+.f_logo_app {display:inline-flex; position:absolute; top:80px; left:90px;}
+
+401줄
+.f_logo_app {left:27px;}
+.f_logo_app {left:20px;}
+
+179줄
+.f_logo_app li + li {margin-left:16px;}
+.f_logo_app li + li {margin-left:15px;}
+
+414줄
+#header .header_inner h1{float:none;width:114px;height:20px;}
+#header .header_inner h1{/*float:none;*/width:114px;height:20px;}
+
+415줄
+#header .header_inner .menu{display:none;}
+#header .header_inner .menu{/*display:none;*/}
+
+416줄
+#header .header_inner .menu .wide {display:none;} 전체 추가
+
+
+475줄
+.ex_pass {height:} height 삭제
+
+
+480
+기존 : .btn_exper,.btn_pass{display:none;}
+수정 : .btn_pass{display:none;}
+--------------------------------------------------------------
+
+
+
+
+.layer .layer_inner {
+box-sizing:border-box;
+height:100%;
+padding-bottom:64px;
+overflow-y:auto;
+}
+
+.layer {
+max-height:100%;
+}
+
+<div class="layer_inner">
+
+
+</div>
+
+
+
+.btn_exper, .btn_pass {
+display:inline-block;
+position:relative;
+bottom:auto;
+width:auto;
+height:auto;
+margin-top:1em;
+padding:0.5em 1.5em;
+font-size:1em;
+line-height:1;
+}
+
+----------------------------------------------------------------
+
+.f_logo_app {align-items: baseline;} 내용 추가
+.f_logo_app li:last-of-type {height:20px;} 줄 전체 추가.
+
+
+.footer_inner {
+기존 : padding: 25px 0 0 298px;
+수정 : padding: 25px 0 0 378px;
+}

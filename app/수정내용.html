@@ -1,0 +1,106 @@
+기존 
+<ul class="menu">
+	<li><a href="https://www.passauth.co.kr/downloadFile">소개서 받기</a></li>	<!-- 소개서 받기 클릭 시 'PASS인증서_표준제안서.pdf' 파일 다운로드 -->
+	<li><a href="javascript:;" class="btn_goservice">서비스 체험</a></li>
+	<li><a href="https://www.passauth.co.kr/question">FAQ</a></li>
+</ul>
+
+수정
+<ul class="menu">
+	<li class="pc"><a href="#g" class="layer_guide_triger">이용가이드</a></li>
+	<li class="mobile"><a href="pass_cert_guide.html" target="_blank">이용가이드</a></li>
+	<li class="pc"><a href="https://www.passauth.co.kr/downloadFile">소개서 받기</a></li>	<!-- 소개서 받기 클릭 시 'PASS인증서_표준제안서.pdf' 파일 다운로드 -->
+	<li class="pc"><a href="javascript:;" class="btn_goservice">서비스 체험</a></li>
+	<li><a href="https://www.passauth.co.kr/question">FAQ</a></li>
+</ul>
+
+
+추가
+<article class="pass_hometax">
+	<div>
+		<dl>
+			<dt>2020년 연말정산은<br />PASS인증서로 간편하게 어때요?</dt>
+			<dd>* 실제 연말정산은 PC화면에서 '국세청 > 홈택스'에 접속하시면 가능합니다.</dd>
+		</dl>
+		<a href="#g"><span>PASS인증서 연말정산 체험하기</span></a>
+	</div>
+</article>
+
+
+PASS인증 제휴사 배너 및 추가
+- 홈텍스
+
+
+footer 수정.
+
+기존 
+<footer id="footer">
+	<div class="footer_inner">
+
+		...
+
+		<p class="f_logo"><p class="f_logo"><img src="./images/logo_f.png" alt="ATON"></p>
+
+		...
+
+		<ul class="f_logo_app">
+			...
+		</ul>
+
+	</div>
+</footer>
+
+
+수정
+<footer id="footer">
+	<div class="footer_inner">
+
+		...
+
+		<p class="f_logo"><img src="./images/f_logo_passauth.png" alt="PASS 인증서"></p>
+		<ul class="f_logo_app">
+			...
+			<li><img src="./images/f_logo_aton.png" alt="ATON"></li>
+		</ul>
+
+	</div>
+</footer>
+
+
+이용가이드 레이어 추가.
+<div class="layer_pass_cert">
+	<div class="img">
+		<div class="pc"><img src="./images/PASScert_guide_01_e.png" alt="가이드"></div>
+		<div class="mobile"><img src="./images/PASScert_guide_01_m.png" alt="가이드 모바일"></div>
+	</div>
+	<a href="#g" class="close"><span>닫기</span></a>
+</div><!-- // layer_pass_cert -->
+
+
+
+기존 체험하기 팝업 수정. (모바일용으로 재활용)
+
+기존 
+<div class="layer ...">
+	<form ...>
+
+	</form>
+	<a href="javascript:closeNref();" class="layer_close">닫기</a>
+</div>
+
+
+수정
+<div class="layer ...">
+	<div class="layer_inner">
+		<form ...>
+
+		</form>
+	</div>
+	<a href="javascript:closeNref();" class="layer_close">닫기</a>
+</div>
+
+
+experience.js 수정. (체험 slide 내용 추가.)
+$(".ex_wrapper").slick({
+		adaptiveHeight: true, 추가
+});

@@ -1,0 +1,83 @@
+@charset "UTF-8";
+
+@font-face {
+font-family: 'NanumSquare';
+font-style: normal;
+font-weight: 400;
+src: url("fonts/NanumSquareR.woff2") format("woff2"),
+	url("fonts/NanumSquareR.woff") format("woff"), /* ie 제외한 나머지 */
+	url("fonts/NanumSquareR.ttf") format("truetype"), /* 구형 ie / Android 4.0 이하 */
+	url("fonts/NanumSquareR.otf") format("opentype"), /* 맥용. */
+	url("fonts/NanumSquareR.svg") format("svg"); /* IOS 4 이하 모바일브라우져 */
+}
+@font-face {
+font-family: 'NanumSquare';
+font-style: normal;
+font-weight: 700;
+src: url("fonts/NanumSquareB.woff2") format("woff2"),
+	url("fonts/NanumSquareB.woff") format("woff"),
+	url("fonts/NanumSquareB.ttf") format("truetype"),
+	url("fonts/NanumSquareB.otf") format("opentype"),
+	url("fonts/NanumSquareB.svg") format("svg");
+}
+@font-face {
+font-family: 'NanumSquare';
+font-style: normal;
+font-weight: 900;
+src: url("fonts/NanumSquareEB.woff2") format("woff2"),
+	url("fonts/NanumSquareEB.woff") format("woff"),
+	url("fonts/NanumSquareEB.ttf") format("truetype"),
+	url("fonts/NanumSquareEB.otf") format("opentype"),
+	url("fonts/NanumSquareEB.svg") format("svg");
+}
+
+@font-face {
+font-family: 'NotoSansCJKkr';
+font-style: normal;
+font-weight: 400;
+src: url(fonts/NotoSans-Regular.woff2) format('woff2'),
+	url(fonts/NotoSans-Regular.woff) format('woff'),
+	url(fonts/NotoSans-Regular.ttf) format('truetype');
+}
+@font-face {
+font-family: 'NotoSansCJKkr';
+font-style: normal;
+font-weight: 700;
+src: url(fonts/NotoSans-Bold.eot);
+src: url(fonts/NotoSans-Bold.woff2) format('woff2'),
+	url(fonts/NotoSans-Bold.woff) format('woff'),
+	url(fonts/NotoSans-Bold.ttf) format('truetype');
+}
+/* default definition*/
+* { margin:0; padding:0;}
+html, body { margin:0; padding:0;}
+body {font-family: "NanumSquare",Dotum;font-size:18px;color:#2b2b2b;line-height:1;letter-spacing:-.03em;position:relative; text-align:justify; word-break:break-all;}
+table, div {border-collapse:collapse;}
+form, ul, ol, dl, table, div, h1, h2, h3 ,h4 {margin:0;padding:0;}
+h1, h2, h3 ,h4, h5, h6{font-size:12px; text-decoration:none; font-weight:normal;}
+article, aside, hgroup, header, footer, figure, figcaption, nav, section,main {display:block;}
+img, fieldset {border:0; margin:0; padding:0; }
+li{vertical-align:top; }
+input,textarea{font-family: "NotoSansCJKkr",Dotum;}
+select,textarea{color:#2b2b2b;font-size:13px;vertical-align:middle;}
+textarea{width:100%;padding:4px;color:#2b2b2b;font-size:13px;box-sizing:border-box;border:1px solid #ddd;resize:none;-webkit-appearance:none;}
+input{vertical-align:middle;}
+input[type=text],input[type=file],input[type=password],input[type=number]{height:33px;color:#2b2b2b;font-size:13px;line-height:33px;padding:0 4px;/*padding:0 4px 0 11px;*/border:none;box-sizing:border-box;/* outline:none; */}
+input[type=number]{text-align:center;}
+input[type=text]:focus,input[type=file]:focus,input[type=number]:focus{}
+input[type=text]:disabled{color:#a2a2a2;background:#efefef;/* background:#fff; */}
+input[type=text][readonly],input[type=text]:read-only,input[type=text]:readonly{color:#6f6f6f;background:#efefef !important;}
+input[readonly]{color:#6f6f6f;background:#efefef !important;}
+button{border:none;font-size:0;cursor:pointer;background:none;}
+input[type=file]{background:#fff;}
+select{position:relative;}
+img{vertical-align:middle;}
+ul, li, dl, dt, dd{list-style-type : none; }
+label{cursor:pointer;vertical-align:middle;}
+i,em,address{font-style:normal;}
+table{width:100%;}
+caption { text-indent:-5000px; line-height:0; font-size:0;}
+legend{ text-indent:-5000px; line-height:0; font-size:0; position:absolute;top:0;left:0;}
+hr{display:none;}
+a{color:#313131;}
+a:link,a:hover,a:visited {text-decoration:none;}
