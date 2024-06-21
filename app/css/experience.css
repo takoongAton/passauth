@@ -354,7 +354,7 @@ opacity: 1;}
 #Subcontents{position:relative;padding-top:162px;background:#fff;z-index:50;}
 #Subcontents h3{margin-bottom:24px;color:#222;font-size:40px;font-weight:700;line-height:48px;}
 .Subarticle{position:relative; width:1300px;margin:0 auto;padding:0 40px;box-sizing:border-box;}
-.Subarticle > select {position:absolute; right:40px; top:15px; width:280px; height:30px; font-size:16px; font-family:'NanumSquare';}
+.Subarticle select {position:absolute; right:40px; top:15px; width:280px; height:30px; font-size:16px; font-family:'NanumSquare';}
 #Subcontents .pass_pdf{margin-top:186px;}
 .form_alliance{padding:30px 0 56px;border-top:4px solid #8951ff;background:#f8f8f8;}
 .form_alliance li{padding:10px 0;}
@@ -581,7 +581,7 @@ opacity: 1;}
 	#Subcontents{position:relative;padding-top:75px;}
 	#Subcontents h3{display:none;}
 	.Subarticle{width:100%;margin:0 auto;padding:0 5.55555555555556vw;}
-	.Subarticle > select {box-sizing:border-box; position:relative; right:auto; top:auto; width:100%; height:30px; margin-top:20px;  border-color:#ebebeb;}
+	.Subarticle select {box-sizing:border-box; position:relative; right:auto; top:auto; width:100%; height:30px; margin-top:20px;  border-color:#ebebeb;}
 	#Subcontents .pass_pdf{margin-top:66px;}
 	.form_alliance{padding:28px 0 0;border-top:none;background:#fff;}
 	.form_alliance li{padding:5px 0;}
